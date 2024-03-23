@@ -1,0 +1,101 @@
+body{
+    background-color: #45230f;
+    color: blanchedalmond;
+}
+
+#panelDeBotones {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.boton {
+    display: inline-block;    
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    background-color: #354733;
+    color: white;
+    border-radius: 5px; 
+    text-decoration: none;  
+    font-size: 150%; 
+}
+
+.boton:hover {
+    background-color: #cd2727;
+}
+
+.h1 {
+    padding-top: 2%;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+#miFormulario {
+    background-color: #204d48;
+    width: 100%; /* Asegura que el formulario se adapte al ancho del contenedor */
+    max-width: 600px; /* Establece un ancho máximo para el formulario */
+    padding: 20px; /* Agrega un poco de espacio alrededor del contenido del formulario */
+    margin: auto; /* Centra el formulario en la página */
+    border: 2.5px solid #000000; /* Agrega un borde alrededor del formulario */
+    border-radius: 10px; /* Redondea los bordes del formulario */
+    box-sizing: border-box; /* Asegura que el padding y el borde no aumenten el tamaño del formulario */
+}
+
+#miFormulario input[type="text"],
+#miFormulario input[type="number"],
+#miFormulario select,
+#miFormulario input[type="submit"] {
+    color: #F8F9FB;
+    background-color: #955f31;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box; 
+    font-size: 15px;  
+    font-style: oblique;
+    font-weight: 800;
+}
+
+#miFormulario input[type="submit"]{
+    border-radius: 20px;
+    max-width: 150px;
+    max-height: 50px;
+    color: #955f31;
+    background-color: blanchedalmond;
+}
+
+#ListaDeMarcas option:nth-child(even) {
+    background-color: blanchedalmond; /* Color para las filas pares */
+    color: #955f31;
+    font-weight: lighter;
+}
+
+#ListaDeMarcas option:nth-child(odd) {
+    background-color: #955f31; /* Color para las filas impares */
+    color: #eeebeb;
+    font-weight: lighter;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Hace que el formulario y sus elementos se vean bien en pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    #miFormulario {
+        width: 100%;
+        margin: auto;
+    }
+    .boton {
+        width: 100%;
+    }
+}
