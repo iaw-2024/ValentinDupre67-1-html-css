@@ -1,5 +1,5 @@
 body{
-    background-color: #45230f;
+    background-color: #35393C;
     color: blanchedalmond;
 }
 
@@ -15,8 +15,8 @@ body{
     padding: 15px;
     margin: 5px;
     text-align: center;
-    background-color: #354733;
-    color: white;
+    background-color: #6B8F71;
+    color: #07004D;
     border-radius: 5px; 
     text-decoration: none;  
     font-size: 150%; 
@@ -33,22 +33,22 @@ body{
 }
 
 #miFormulario {
-    background-color: #204d48;
-    width: 100%; /* Asegura que el formulario se adapte al ancho del contenedor */
-    max-width: 600px; /* Establece un ancho máximo para el formulario */
-    padding: 20px; /* Agrega un poco de espacio alrededor del contenido del formulario */
-    margin: auto; /* Centra el formulario en la página */
-    border: 2.5px solid #000000; /* Agrega un borde alrededor del formulario */
-    border-radius: 10px; /* Redondea los bordes del formulario */
-    box-sizing: border-box; /* Asegura que el padding y el borde no aumenten el tamaño del formulario */
+    background-color: #6b8f71;
+    width: 100%; 
+    max-width: 600px; 
+    padding: 20px; 
+    margin: auto; 
+    border: 2.5px solid #000000; 
+    border-radius: 10px; 
+    box-sizing: border-box;
 }
 
 #miFormulario input[type="text"],
 #miFormulario input[type="number"],
 #miFormulario select,
 #miFormulario input[type="submit"] {
-    color: #F8F9FB;
-    background-color: #955f31;
+    color: #07004D;
+    background-color: #AAD2BA;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -67,14 +67,14 @@ body{
 }
 
 #ListaDeMarcas option:nth-child(even) {
-    background-color: blanchedalmond; /* Color para las filas pares */
-    color: #955f31;
+    background-color: #B9F5D8; 
+    color: #4F3130;
     font-weight: lighter;
 }
 
-#ListaDeMarcas option:nth-child(odd) {
-    background-color: #955f31; /* Color para las filas impares */
-    color: #eeebeb;
+#ListaDeMarcas option:nth-child(odd) {  
+    background-color: #D9FFF5; 
+    color: #4F3130;
     font-weight: lighter;
 }
 
@@ -89,7 +89,7 @@ label {
     font-size: 20px;
 }
 
-/* Hace que el formulario y sus elementos se vean bien en pantallas pequeñas */
+
 @media screen and (max-width: 600px) {
     #miFormulario {
         width: 100%;
