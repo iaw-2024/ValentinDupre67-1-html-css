@@ -1,18 +1,63 @@
 body{
-    background-color: #c3550c;    
+    background-color: #828C51;    
+}
+
+#panelDeBotones {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.boton {
+    display: inline-block;    
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    background-color: #2B4570;
+    color: #A8D0DB;
+    border-radius: 5px; 
+    text-decoration: none;  
+    font-size: 150%; 
+}
+
+.boton:hover {
+    background-color: #cd2727;
 }
 
 h1{
     padding-bottom: 5%;
-    color: blanchedalmond;
+    padding-top: 5%;
+    color: #A8D0DB;
 }
 
-.container{
-    width: 25%;            
+#con2{
+    max-width: 30%;
+    padding: 20px;
+    margin: auto;
+    background-color: #2B4570;
+    color: black;
+    border-radius: 10px;    
 }
 
-#con2{    
+.form-label{
+    color: #A8D0DB;
+    font-size: 150%;
+}
+
+#con2 input[type="text"],
+#con2 input[type="number"],
+.form-select{
+    background-color: #828C51;    
+}
+
+#con1{    
     width: 60%; 
     text-align: center;      
     
+}
+
+.btn-primary{
+    background-color: #A8D0DB;
+    color: #828C51;
 }

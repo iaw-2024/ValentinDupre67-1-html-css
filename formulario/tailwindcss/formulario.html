@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="flex flex-wrap justify-center md:justify-center items-center md:items-start content-center md:content-start">
+    <a href="../../formulario/html_css/formulario.html" class="w-full md:w-auto md:mr-4 mb-4 md:mb-0 px-8 py-4 bg-blue-500 text-white rounded-lg mt-4">
+      Furmulario html/css
+    </a>
+    <a href="../../listado/html_css/lista.html" class="w-full md:w-auto md:mr-4 mb-4 md:mb-0 px-8 py-4 bg-blue-500 text-white rounded-lg mt-4">
+      Lista html/css
+    </a>
+    <a href="../../formulario/bootstrap/formulario.html" class="w-full md:w-auto md:mr-4 mb-4 md:mb-0 px-8 py-4 bg-blue-500 text-white rounded-lg mt-4">
+      Formulario Bootstrap
+    </a>
+    <a href="../../listado/bootstrap/lista.html" class="w-full md:w-auto md:mr-4 mb-4 md:mb-0 px-8 py-4 bg-blue-500 text-white rounded-lg mt-4">
+      Lista Bootstrap
+    </a>
+    <a href="../../formulario/tailwindcss/formulario.html" class="w-full md:w-auto md:mr-4 mb-4 md:mb-0 px-8 py-4 bg-blue-500 text-white rounded-lg mt-4">
+      Formulario Tailwind
+    </a>
+    <a href="../../listado/tailwindcss/lista.html" class="w-full md:w-auto md:mr-4 mb-4 md:mb-0 px-8 py-4 bg-blue-500 text-white rounded-lg mt-4">
+      Lista Tailwind
+    </a>
+  </div>
+  <div class="flex items-center justify-center py-5">
+    <h1 class="text-3xl font-bold text-center">
+      Formulario Para Motos
+    </h1>
+  </div>
+  <div class="container mx-auto bg-gray-100 rounded-lg p-4 border border-gray-200 md:max-w-md md:mx-auto md:p-5">
+    <form class="md:space-y-4">
+        <div class="mb-4 space-y-1">
+          <label for="marca" class="block text-sm font-medium text-gray-700">Marca</label>
+          <select id="marca" name="marca" class="bg-white border border-gray-200 text-gray-700 py-2 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 m-2 md:m-0 md:w-auto">
+            <option class="bg-gray-50">Yamaha</option>
+            <option class="bg-gray-50">Honda</option>
+            <option class="bg-gray-50">Suzuki</option>
+            <option class="bg-gray-50">Kawasaki</option>
+            <option class="bg-gray-50">BMW</option>
+            <option class="bg-gray-50">Ducati</option>
+            <option class="bg-gray-50">Triumph</option>
+            <option class="bg-gray-50">KTM</option>
+          </select>
+        </div>
+        <div class="mb-4 space-y-1">
+          <label for="modelo" class="block text-sm font-medium text-gray-700">Modelo</label>
+          <input type="text" id="modelo" name="modelo" class="bg-gray-50 border border-gray-300 text-gray-900 py-2 w-full px-4 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+        </div>
+        <div class="mb-4 space-y-1">
+          <label for="cilindrada" class="block text-sm font-medium text-gray-700">Cilindrada</label>
+          <input type="number" id="cilindrada" name="cilindrada" class="bg-gray-50 border border-gray-300 text-gray-900 py-2 px-4 w-full rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+        </div>
+        <div class="mb-4 space-y-1">
+          <label for="velocidadMaxima" class="block text-sm font-medium text-gray-700">Velocidad Maxima</label>
+          <input type="number" id="velocidadMaxima" name="velocidadMaxima" class="bg-gray-50 border border-gray-300 text-gray-900 py-2 px-4 w-full rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+        </div>
+        <div class="mb-4 space-y-1">
+          <label for="color" class="block text-sm font-medium text-gray-700">Color</label>
+          <input type="text" id="color" name="color" class="bg-gray-50 border border-gray-300 text-gray-900 py-2 px-4 w-full rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+        </div>
+        <div class="mb-4 space-y-1">
+          <label for="patente" class="block text-sm font-medium text-gray-700">Formulario Para Motos</label>
+          <input type="number" id="patente" name="patente" maxlength="6" class="bg-gray-50 border border-gray-300 text-gray-900 py-2 px-4 w-full rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+        </div>
+        <div>
+          <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Enviar</button>
+        </div>
+    </form>
+  </div> 
+</body>
+</html>
